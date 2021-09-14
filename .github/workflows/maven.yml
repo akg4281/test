@@ -31,7 +31,7 @@ jobs:
         # Artifact name
         name: akg-java-test1
         # A file, directory or wildcard pattern that describes what to upload
-        path: 
+        path: target/NewApp.1.0-SNAPSHOT.war
         # The desired behavior if no files are found using the provided path.
         if-no-files-found: error
         retention-days: 60
